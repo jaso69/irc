@@ -218,17 +218,17 @@ const toggleAway = () => {
     width: 120px;
     user-select: none;
     animation: giro;
-    animation-duration: 4s;
+    animation-duration: 3s;
 }
 
 @keyframes giro {
     from {
     transform: rotate(0deg);
-    scale: .5;
+    scale: 0;
   }
   to {
     transform: rotate(360deg);
-    scale: 1.3;
+    scale: 1;
   }
 }
 
