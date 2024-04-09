@@ -8,7 +8,7 @@
         </template>
         <template v-else #connection>
             <form class="u-form u-form--big kiwi-welcome-simple-form" @submit.prevent="formSubmit">
-                <h2 v-html="greetingText" />
+                <h2 class="wellcome">Bienvenidos a Matojeando</h2>
                 <div
                     v-if="network && (connectErrors.length > 0 || network.state_error)"
                     class="kiwi-welcome-simple-error"
@@ -459,6 +459,8 @@ export default {
 form.kiwi-welcome-simple-form {
     width: 70%;
     padding: 20px;
+    animation: titulo;
+    animation-duration: 5s;
 }
 
 @media (max-width: 1025px) {
@@ -489,6 +491,17 @@ form.kiwi-welcome-simple-form h2 {
     font-size: 2.2em;
     text-align: center;
     line-height: 1.2em;
+}
+
+.wellcome {
+    color: #09f;
+}
+
+@keyframes titulo {
+    to {
+        opacity: 0.8;
+    }
+    from { opacity: 0; }
 }
 
 .kiwi-welcome-simple-error {
