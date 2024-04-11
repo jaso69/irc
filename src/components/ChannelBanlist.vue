@@ -33,7 +33,7 @@
 
             <template v-for="ban in sortedBanList">
                 <div
-                    :key="'mask' + ban.banned"
+
                     class="kiwi-sidebar-settings-access-mask"
                 >
                     {{ displayMask(ban.banned) }}
