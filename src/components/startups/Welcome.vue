@@ -499,7 +499,7 @@ form.kiwi-welcome-simple-form h2 {
 
 @keyframes titulo {
     to {
-        opacity: 0.8;
+        opacity: 0.5;
     }
     from { opacity: 0; }
 }
