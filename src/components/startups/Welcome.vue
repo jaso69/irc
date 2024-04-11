@@ -494,7 +494,7 @@ form.kiwi-welcome-simple-form h2 {
 }
 
 .wellcome {
-    color: #09f;
+    color: rgb(25, 218, 141);
 }
 
 @keyframes titulo {

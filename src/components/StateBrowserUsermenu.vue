@@ -117,9 +117,11 @@ export default {
 }
 
 .kiwi-statebrowser-usermenu-avatar {
+    display: flex;
     position: relative;
-    width: 80px;
-    height: 80px;
+    align-items: center;
+    width: 100px;
+    height: 100px;
     margin: 0 auto 10px auto;
     transition: background 0.2s;
 }

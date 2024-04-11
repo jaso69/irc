@@ -11,12 +11,11 @@
         <div :style="styleInfo"
              class="kiwi-startup-common-section kiwi-startup-common-section-info"
         >
-            <!-- <div class="kiwi-startup-common-section-info-content"/> -->
             <img src="../../../static/img/banner2.jpg" alt="">
         </div>
-        <!-- <div class="kiwi-fontawesome-preload">
-            <i class="fa fa-spinner" aria-hidden="true" />
-        </div> -->
+    <!-- <div class="kiwi-fontawesome-preload">
+        <i class="fa fa-spinner" aria-hidden="true" />
+    </div> -->
     </div>
 </template>
 

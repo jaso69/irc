@@ -196,7 +196,7 @@ export default {
     opacity: 1;
     line-height: 38px;
     cursor: pointer;
-    display: block;
+    display: none;
     box-sizing: border-box;
     background: none;
     text-align: left;
@@ -215,7 +215,7 @@ export default {
 }
 
 .kiwi-statebrowser-newnetwork a:hover {
-    opacity: 1;
+    opacity: 0;
 }
 
 .kiwi-statebrowser-network .kiwi-statebrowser-network-header {
